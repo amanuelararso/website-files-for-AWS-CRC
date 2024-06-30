@@ -1,0 +1,105 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 8mm;
+    background-color: #9dc2e7;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.parent-container {
+    display: flex;
+}
+.summary, .education, .experience, .skills, .certifications{
+    padding-left: 10%;
+}
+.pic {
+    width: 50%;
+    padding: 10%;
+}
+.contact-info {
+    display: flex;
+    justify-content: center;
+}
+
+header, section {
+    margin-bottom: 20px;
+}
+header {
+    padding-top: 80px;
+}
+li {
+    padding: 4px;
+}
+
+h1, h2{
+    color:#358be2;
+    font-style:oblique;
+}
+h1,h2 {
+    display: flex;
+    
+}
+h3 {
+    padding-left: 10mm;
+}
+
+p {
+    line-height: 1.6;
+}
+.summary {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.contact-info, .education, .experience, .skills {
+    margin-bottom: 20px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 5px;
+}
+/* .hr-styled {
+width: 120mm;
+} */
+
+.certifications-flex {
+    display:inline-flex;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 5%;
+   padding-left: 10px;
+}
+
+img {
+    width: 30%;
+}
+.sec1, .sec2 {
+    padding-left: 10%;
+}
+.skill-centered {
+    display:flex;
+    padding-left: 50px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+.counter {
+    padding-left: 10%;
+}
+#count {
+    color: #489e6a;
+    font-style: oblique;
+}
